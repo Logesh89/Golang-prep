@@ -1,0 +1,40 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//Variable
+	var username string = "Logesh"
+	fmt.Println("Hello I'm Logesh...!")
+	fmt.Printf(username+" Variable type is: %T \n", username)
+
+	//Boolean
+	var isLoggedin bool = false
+	fmt.Println(isLoggedin)
+	fmt.Printf(" Variable type is: %T \n", isLoggedin)
+
+	//Numeric values
+	var smallVal uint8
+	fmt.Println(smallVal)
+	fmt.Printf(" Variable type is: %T \n", smallVal)
+
+	//Float values
+	var smallFloat float64 = 255.0006
+	fmt.Println(smallFloat)
+	fmt.Printf(" Variable type is: %T \n", smallFloat)
+
+	//default values and aliases
+	var anotherVariable int
+	fmt.Println(anotherVariable)
+	fmt.Printf(" Variable type is: %T \n", anotherVariable)
+
+	//implicit type
+	var website = "Logesh.com"
+	fmt.Println(website)
+
+	//No var style
+	noOfEmployees := 30000.000
+	fmt.Println(noOfEmployees)
+
+}
